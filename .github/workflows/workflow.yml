@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        version: ["", "1.12.x"]
+        version: ["", "1.12.x", "1.2.1"]
         channel: [stable, beta, dev]
     steps:
       - uses: actions/checkout@v1
